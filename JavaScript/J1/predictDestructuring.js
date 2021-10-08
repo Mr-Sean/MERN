@@ -1,52 +1,52 @@
-// const cars = ['Tesla', 'Mercedes', 'Honda']
-// const [ randomCar ] = cars
-// const [ ,otherRandomCar ] = cars
-// //Predict the output
-// console.log(randomCar)
-// console.log(otherRandomCar)
+const cars = ['Tesla', 'Mercedes', 'Honda']
+const [ randomCar ] = cars
+const [ ,otherRandomCar ] = cars
+//Predict the output
+console.log(randomCar)
+console.log(otherRandomCar)
 
-// // Predict: Tesla & Mercedes
-// // Answer: Correct
-
-
-// const employee = {
-//     name: 'Elon',
-//     age: 47,
-//     company: 'Tesla'
-// }
-// const { name: otherName } = employee;
-// //Predict the output
-// console.log(name);
-// console.log(otherName);
-
-// // Predict: Undefined & Elon
-// // Answer: "name is not defined" & "Elon"
+// Predict: Tesla & Mercedes
+// Answer: Correct
 
 
-// const person = {
-//     name: 'Phil Smith',
-//     age: 47,
-//     height: '6 feet'
-// }
-// const password = '12345';
-// const { password: hashedPassword } = person;  
-// //Predict the output
-// console.log(password);
-// console.log(hashedPassword);
+const employee = {
+    name: 'Elon',
+    age: 47,
+    company: 'Tesla'
+}
+const { name: otherName } = employee;
+//Predict the output
+console.log(name);
+console.log(otherName);
 
-// // Predict: "12345" x 2
-// // Answer: 12345 & Undefined
+// Predict: Undefined & Elon
+// Answer: "name is not defined" & "Elon"
 
 
-// const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
-// const [,first] = numbers;
-// const [,,,second] = numbers;
-// const [,,,,,,,,third] = numbers;
-// //Predict the output
-// console.log(first == second);
-// console.log(first == third);
-// // Predict: False & True
-// // Answer: Correct
+const person = {
+    name: 'Phil Smith',
+    age: 47,
+    height: '6 feet'
+}
+const password = '12345';
+const { password: hashedPassword } = person;  
+//Predict the output
+console.log(password);
+console.log(hashedPassword);
+
+// Predict: "12345" x 2
+// Answer: 12345 & Undefined
+
+
+const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
+const [,first] = numbers;
+const [,,,second] = numbers;
+const [,,,,,,,,third] = numbers;
+//Predict the output
+console.log(first == second);
+console.log(first == third);
+// Predict: False & True
+// Answer: Correct
 
 
 const lastTest = {
