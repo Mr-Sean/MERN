@@ -1,15 +1,3 @@
-/* 
-
-
-.completed {
-  text-decoration: line-through;
-  display: none;
-}
-
-.notCompleted {
-  text-decoration: none;
-} */
-
 .App {
   text-align: center;
 }
@@ -49,12 +37,10 @@
   }
 }
 
-
-.completed{
+.completed {
   text-decoration: line-through;
 }
 
-
-.notCompleted{
+.notCompleted {
   text-decoration: none;
 }
