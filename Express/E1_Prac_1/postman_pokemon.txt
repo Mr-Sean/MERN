@@ -1,0 +1,194 @@
+5 "Get" requests:
+
+
+
+1) https://pokeapi.co/api/v2/pokemon/squirtle
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "torrent",
+                "url": "https://pokeapi.co/api/v2/ability/67/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "rain-dish",
+                "url": "https://pokeapi.co/api/v2/ability/44/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 63,
+    "forms": [
+        {
+            "name": "squirtle",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/7/"
+        }
+    ],
+}
+
+
+
+
+2) https://pokeapi.co/api/v2/pokemon/wigglytuff
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "cute-charm",
+                "url": "https://pokeapi.co/api/v2/ability/56/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "competitive",
+                "url": "https://pokeapi.co/api/v2/ability/172/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "frisk",
+                "url": "https://pokeapi.co/api/v2/ability/119/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 196,
+    "forms": [
+        {
+            "name": "wigglytuff",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/40/"
+        }
+    ],
+}
+
+
+
+3) https://pokeapi.co/api/v2/pokemon/psyduck
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "damp",
+                "url": "https://pokeapi.co/api/v2/ability/6/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "cloud-nine",
+                "url": "https://pokeapi.co/api/v2/ability/13/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "swift-swim",
+                "url": "https://pokeapi.co/api/v2/ability/33/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 64,
+    "forms": [
+        {
+            "name": "psyduck",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/54/"
+        }
+    ],
+}
+
+
+
+4) https://pokeapi.co/api/v2/pokemon/tentacruel
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "clear-body",
+                "url": "https://pokeapi.co/api/v2/ability/29/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "liquid-ooze",
+                "url": "https://pokeapi.co/api/v2/ability/64/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "rain-dish",
+                "url": "https://pokeapi.co/api/v2/ability/44/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 180,
+    "forms": [
+        {
+            "name": "tentacruel",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/73/"
+        }
+    ],
+}
+
+
+
+5) https://pokeapi.co/api/v2/pokemon/slowbro
+
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "oblivious",
+                "url": "https://pokeapi.co/api/v2/ability/12/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "own-tempo",
+                "url": "https://pokeapi.co/api/v2/ability/20/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "regenerator",
+                "url": "https://pokeapi.co/api/v2/ability/144/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 172,
+    "forms": [
+        {
+            "name": "slowbro",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/80/"
+        }
+    ],
+}

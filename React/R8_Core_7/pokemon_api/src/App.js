@@ -32,6 +32,7 @@ function App() {
     axios.get(`https://pokeapi.co/api/v2/pokemon?limit=807`)
 
       .then(res=>{
+        console.log(res.data);
         console.log(res.data.results);
           // store the json converted data in state so it can be displayed      
         setPokemon(res.data.results);
