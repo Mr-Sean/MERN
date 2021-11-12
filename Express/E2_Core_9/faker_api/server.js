@@ -3,7 +3,6 @@ const { request, response } = require('express');
 const express = require('express');
 const faker = require('faker');
 const app = express();
-const port = 8000;
 
 // middleware / configuration
 app.use(express.json());
@@ -63,4 +62,6 @@ app.get("/api/user/company", (request, response) => {
 });
 
 // listen on 8000
-app.listen(8000, ()=>console.log("Successfully connected to Port 8000"));
+const port = 8000;
+
+app.listen(8000, ()=>console.log(`Successfully connected to Port ${port}`));
