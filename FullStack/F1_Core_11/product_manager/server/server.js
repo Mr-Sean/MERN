@@ -13,7 +13,6 @@ app.use(cors({
 require("./config/mongoose.config");
 const ProductRoutes = require("./routes/product.routes");
 ProductRoutes(app);
-// require('./routes/person.routes')(app);
 
 
 const port = 8000;
