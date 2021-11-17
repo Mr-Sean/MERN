@@ -36,7 +36,7 @@ const updateProduct = (req, res) => {
 };
 
 const deleteProduct = (req, res) => {
-    Product.deleteOne(req.params._id)
+    Product.deleteOne({_id: req.params._id})
         .then((deletedId) => res.json(deletedId))
         .catch((err) => res.status(400).json(err));
         // .catch((err) => console.log(err));

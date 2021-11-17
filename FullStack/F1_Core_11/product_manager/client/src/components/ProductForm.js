@@ -3,9 +3,9 @@ import axios from "axios";
 
 const ProductForm = (props) => {
 
-    // const { productList, setProductList } = props;
+    const { productList, setProductList } = props;
 
-    const { submissionDummy, setSubmissionDummy } = props;
+    // const { submissionDummy, setSubmissionDummy } = props;
 
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState("");
@@ -23,16 +23,18 @@ const ProductForm = (props) => {
         .then((response) => {
             console.log(response);
             console.log(response.data);
-
+            
+            setProductList([...productList, response.data.product])
             setTitle("");
             setPrice("");
             setDescription("");
-            
-            setSubmissionDummy(!submissionDummy);
-            // setProductList([...productList, response.data.product])
+
+            // setSubmissionDummy(!submissionDummy);
 
         })
-        .catch((err) => console.log(err));
+        .catch((err) =>  {
+            console.log(err);
+        })
     };
 
     return (
@@ -57,7 +59,7 @@ const ProductForm = (props) => {
                 <label>Price: </label>
                 <input 
                     name="price"
-                    type="text" 
+                    type="number" 
                     onChange={(e) => setPrice(e.target.value)}
                     value={price} 
                 />
