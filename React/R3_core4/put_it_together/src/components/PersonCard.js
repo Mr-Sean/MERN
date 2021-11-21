@@ -1,26 +1,29 @@
-import React, { useState } from 'react';
+import React, { Component } from "react";
 
+class PersonCard extends Component {
+  constructor(props) {
+    super(props);
 
-
-const PersonCard = (props) => {
-
-    const {firstName, lastName, age, hairColor} = props;
-    const [stateAge, setStateAge] = useState(age);
-
-
+    this.state = {
+      ageUp: this.props.age,
+    };
+  }
+  render() {
+    // age is used when setting up state and so we do not need to destructure it here!
+    const { firstName, lastName, hair } = this.props;
 
     return (
-        <div className="personcard">
-            <h2>{lastName}, {firstName}</h2>
-            <p>Age: {stateAge}</p>
-            <p>Hair Color: {hairColor}</p>
-            <button onClick={() => setStateAge(stateAge + 1)}>
-                Birthday BUTTON for {firstName} {lastName}
-            </button>
-
-        </div>
+      <div className="container">
+        <h2>
+          {lastName}, {firstName}
+        </h2>
+        <p>Age: {this.state.ageUp}</p>
+        <p>Hair Color: {hair}</p>
+        <button onClick={() => this.setState({ ageUp: this.state.ageUp + 1 })}>
+          Birthday!!
+        </button>
+      </div>
     );
-
+  }
 }
-
 export default PersonCard;
