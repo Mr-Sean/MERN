@@ -5,7 +5,6 @@ import axios from 'axios';
 const AllAuthors = (props) => {
 
     const [authorList, setAuthorList] = useState([]);
-    // const {id} = props;
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/authors')
@@ -28,7 +27,7 @@ const AllAuthors = (props) => {
                 .catch((err) => {
                     console.log(err);
                 })
-    }
+        }
 
     return (
         <div>
